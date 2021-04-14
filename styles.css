@@ -1,0 +1,99 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  flex: 0 1 800px;
+  display: flex;
+  flex-direction: column;
+  /*padding: 0 550px;*/
+
+}
+
+.header-wrapper {
+  flex: 0 1 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  flex: 0 1 80%;
+}
+
+.title1 {
+  font-size: 36px;
+}
+
+.title2 {
+  font-size: 30px;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2px;
+}
+
+.study {
+  box-shadow: none;
+}
+
+video {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2px;
+}
+
+.interaction-header {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  flex: 0 1 20%;
+  font-size: 14px;
+  font-variant: small-caps;
+  color: #2A5DB0;
+  text-align: right;
+  padding: 15px 0 0 15px;
+}
+
+.content {
+  flex: 0 1;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title-wrapper {
+  display: flex;
+  flex-direction: row
+}
+
+.section-title {
+  flex: 0 1 85%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.section-gallery {
+  flex: 0 1;
+  font-size: 14px;
+  padding: 12px 0 0 0;
+  color: #2A5DB0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.text-container {
+  text-align: justify;
+}
