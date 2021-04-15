@@ -73,6 +73,10 @@ video {
   margin: 5px;
 }
 
+.pilot {
+  display: flex;
+}
+
 .project {
   flex: 0 1 20%;
   font-size: 14px;
