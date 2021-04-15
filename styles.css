@@ -47,6 +47,30 @@ video {
 .interaction-header {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-content {
+  display: flex;
+  justify-content: space-between;
+}
+.gif img {
+  width: 400px;
+  margin: 10px;
+}
+.gif .gif-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gif-description img {
+  width: 25px;
+  height: 25px;
+  box-shadow: none;
+  margin: 0px;
+}
+.gif-description .description-text {
+  margin: 5px;
 }
 
 .project {
